@@ -1,0 +1,17 @@
+PID: è il numero che identifica in maniera univoca il processo
+USER: è l'utente proprietario del processo
+COMMAND: è il comando generatore del processo
+
+      1 root      20   0  166032  11344   8444 S   0.0   0.6   0:00.69 systemd                       
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                      
+      3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                        
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                    
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri   
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                  
+     10 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_kthre               
+     11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_               
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_trace               
+     13 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftirqd/0                   
+     14 root      20   0       0      0      0 I   0.0   0.0   0:03.79 rcu_preempt                   
+     15 root      rt   0       0      0      0 S   0.0   0.0   0:00.05 migration/0                   
+     12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_trace
